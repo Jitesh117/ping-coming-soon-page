@@ -1,3 +1,11 @@
+:root{
+    --blue:hsl(223, 87%, 63%);
+    --pblue:hsl(223, 100%, 88%);
+    --lred:hsl(354, 100%, 66%);
+    --grey:hsl(0, 0%, 59%);
+    --dblue:hsl(209, 33%, 12%);
+}
+
 *{
     box-sizing:border-box;
     margin: 0;
@@ -5,16 +13,68 @@
     font-family: 'libre franklin',sans-serif;
     /* border: 1px solid red; */
 }
-
+input[type=email]{
+    border-radius: 25px;
+    border:1px solid blue;
+    padding:  10px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: var(--grey);
+}
+button{
+    background-color: var(--blue);
+    border: none;;
+    padding:5px 10px;
+    border-radius: 25px;
+    width: 100%;
+    color: white;
+    margin-bottom: 10px;
+    padding:10px;
+}
+input:focus{
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    font-size: 16px;
+    color: var(--grey);
+}
+.bold{
+    color: black;
+    font-weight: bold;
+}
+.copy{
+    font-size: 10px; 
+}
+#none{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: none;
+}
 @media screen and (max-width:400px) {
     main{
-        width: 90%;
+        width: 80%;
         text-align: center;
-        margin: 100px auto;
+        margin: 50px auto;
     }
     .dash{
         width: 90%;
        
+    }
+    h1{
+        margin: 20px 0;
+    }
+    input[type=text]
+    {
+        margin-top: 20px;
+    }
+    button{
+        margin-bottom: 50px;
     }
     
 }
