@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="style.css">  
 <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -20,26 +20,27 @@
 </head>
 <body>
   <main>
-    <img src="./images/logo.svg" alt="">
+    <img class="logo" src="./images/logo.svg" alt="">
     <h1> We are launching <span class="bold">soon!</span></h1>
    
       <div class="para"> Subscribe and get notified</div>
     <div class="form">
-     <div class="" > <input id="email" type="email" placeholder="Your email address"></div>
+     <input class="email" id="email" type="email" placeholder="Your email address">
      <div id="none" >Please provide a valid email address</div>
      <button onclick="ValidateEmail()" class="submit"> Notify Me</button>
     </div>
     <img class="dash" src="./images/illustration-dashboard.png" alt="">
+    <br>
      <span class="copy">
       &copy; Copyright Ping. All rights reserved.
      </span>
    
-     <footer>
+     <!-- <footer>
        <p class="attribution">
          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
          Coded by <a href="#">Jitesh117</a>.
        </p>
-     </footer>
+     </footer> -->
   </main>
 </body>
 </html>
