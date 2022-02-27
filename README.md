@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
--  [Live site URL](https://huddle-landing-page-indol-ten.vercel.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-pingcomingsoonpage-t_TSQPuKn)
+-  [Live site URL](https://ping-coming-soon-page-jet.vercel.app/)
 
 ## My process
 
